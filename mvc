@@ -1,0 +1,3 @@
+在MVC中使用 Html.BeginForm() 提交表单。
+在view中使用 Html.BeginForm(){}，html.BeginForm()会自动生成form标签。   <form action="/" method="post"> 把标签写在{}内。
+注意标签name值跟modal中的属性名一样。这样页面执行post提交的时候，会把表单内容生成一个model类，传给控制器。
